@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/eec08acf53.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <title>Rulx Sainlus</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <span onclick="openNav()"><i class="fas fa-bars"></i></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="/projects">Projects</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <ul>
+                        <li><img class="rounded-circle" src="/images/MyPic.png" alt="My Picture" width="100"
+                                height="120"></li>
+                        <li><a href="resume.pdf" alt="my resume"><i class="far fa-file"></i> &nbspResume</a></li>
+                        <li><a href="mailto:rulxsainlus@yahoo.com"><i
+                                    class="far fa-envelope"></i>&nbsprulxsainlus@yahoo.com</a></li>
+                        <li><a href="https://www.linkedin.com/in/rsainlus/"><i class="fab fa-linkedin"></i> Linkedin</a>
+                        </li>
+                        <li><a href="https://github.com/RulxS"><i class="fab fa-github"></i> GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-9">
+                <div class="projects">
+                    <h2><b>Recent Projects</b></h2>
+                    <hr>
+
+                    <h4><a href="https://github.com/RulxS/AutoLog"><b>Auto Log</b></a></h4>
+                    <p>A web app that allows users to create a simple account for uploading car related photos or funny
+                        memes that everyone can see and enjoy. The web app also allows any user to create open car
+                        related events that can be posted to the site for other users to attend. This project was a
+                        group final project that allowed us to showcase a few web developmental skills and is still a
+                        work in progress.
+                    </p>
+                    <a href="https://auto-log.herokuapp.com/users/login" class="btn btn-outline-primary btn-lg"
+                        role="button" aria-pressed="true">Visit Auto Log</a>
+
+                    <div class="project-item">
+                        <hr>
+                        <h4><a href="https://github.com/RulxS/Block-Jump"><b>Block Jump</b></a></h4>
+                        <p>A web game project called block jump that requires a user to create an account to play a
+                            simple yet addictive game. This was a group project that was made to implement core elements
+                            from object oriented software engineering such as software design, development, use cases,
+                            and more.</p>
+                        <a href="https://block-jump.herokuapp.com" class="btn btn-outline-primary btn-lg" role="button"
+                            aria-pressed="true">Visit Block-Jump</a>
+                    </div>
+
+                    <div class="project-item">
+                        <hr>
+                        <h4><a href="https://github.com/RulxS/snakegame"><b>Snake Game</b></a></h4>
+                        <p>A simple snake game that was a class project written in Java. The game implements functions
+                            and equations that allow the snake to move, eat, grow, and move faster. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

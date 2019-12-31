@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (min-width: 992px) {
+    .col-lg-9 {
+        font-size: 16px;
+        margin-top: 80px;
+        margin-bottom: 150px;
+    }
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    margin-top: 5px;
+    margin-left: 30%;
+}
+
+header {
+    font-size: 30px;
+    text-align: center;
+}
+
+.head h1 {
+    font-size: 16px;
+    margin-top: 15px;
+    color: rgb(194, 100, 40);
+}
+
+.head h2 {
+    font-size: 70px;
+    margin-top: 15px;
+}
+
+.head h3 {
+    font-size: 55px;
+    margin-top: 15px;
+    color: rgb(194, 100, 40);
+}
+
+.head {
+    margin-top: 150px;
+}
+
+.head a {
+    margin-top: 50px;
+    color: rgb(194, 100, 40);
+}
+
+.about {
+    margin-top: 250px;
+}
+
+.about h3 {
+    color: rgb(194, 100, 40);
+}
+
+.projects h2 {
+    color: rgb(194, 100, 40);
+}
+
+.projects a {
+    color: rgb(194, 100, 40);
+}
+
+.projects {
+    margin-top: 100px;
+}
+
+.project-item {
+    margin-top: 150px;
+}
+
+.mb-3 {
+    margin-top: 300px;
+}
+
+.sidenav {
+    margin-top: 55px;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(194, 100, 40);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 20;
+}
+
+.sidenav ul {
+    list-style: none;
+    padding: 0;
+    width: 225px;
+    height: 100%;
+}
+
+.sidenav li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.sidenav li a:hover {
+    background-color: #113B59;
+    color: white;
+    text-decoration: none;
+}
+
+.sidenav a:hover {
+    color: #113B59;
+    text-decoration: none;
+}
+
+.sidenav .closebtn {
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.navbar {
+    background-color: #113B59;
+}
+
+.navbar span {
+    display: block;
+    color: white;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+.card {
+    background-color: rgb(31, 112, 170);
+}
+
+.mb-4 {
+    background-color: rgb(194, 100, 40);
+}

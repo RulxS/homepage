@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/eec08acf53.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <title>Rulx Sainlus</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <span onclick="openNav()"><i class="fas fa-bars"></i></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/projects">Projects</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <ul>
+                        <li><img class="rounded-circle" src="/images/MyPic.png" alt="My Picture" width="100"
+                                height="120"></li>
+                        <li><a href="resume.pdf" alt="my resume"><i class="far fa-file"></i> &nbspResume</a></li>
+                        <li><a href="mailto:rulxsainlus@yahoo.com"><i
+                                    class="far fa-envelope"></i>&nbsprulxsainlus@yahoo.com</a></li>
+                        <li><a href="https://www.linkedin.com/in/rsainlus/"><i class="fab fa-linkedin"></i> Linkedin</a>
+                        </li>
+                        <li><a href="https://github.com/RulxS"><i class="fab fa-github"></i> GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-9">
+                <div class="head">
+                    <h1>Hi, my name is</h1>
+                    <h2>Rulx Sainlus.</h2>
+                    <h3>I am a Software Developer.</h3>
+                    <h4>I’m a senior at <a href="https://www.bridgew.edu">Bridgewater State University</a> pursuing a
+                        degree in computer science
+                        with a concentration in software development and web application for front and back-end
+                        development.
+                    </h4>
+                    <a href="mailto:rulxsainlus@yahoo.com" class="btn btn-outline-primary btn-lg" role="button"
+                        aria-pressed="true">Contact Me</a>
+                </div>
+
+                <div class="row">
+                    <div class="col-9">
+                        <div class="about">
+                            <h3><b>About Me</b></h3>
+                            <hr>
+                            <p>Hi, I’m Rulx and I’m a senior at Bridgewater State University majoring in Computer
+                                Science.
+                                I have learned so much thanks to my professors at BSU and I really appreciate what
+                                they have done for me and for others.
+                                I enjoy programming. I can say I love it, because it has changed the way I think and
+                                the way I solve problems.
+                                I enjoy learning about new things in the industry and I’m motivated to put my
+                                new skills to good use.
+                                I look forward to working on interesting and meaningful projects with people who
+                                want to do the same.</p>
+
+                            <h4>A few things I've recenlty been working with.</h4>
+                            <ul>
+                                <li>Java</li>
+                                <li>C/C++</li>
+                                <li>HTML & CSS </li>
+                                <li>JavaScript</li>
+                                <li>Node.js</li>
+                                <li>Express</li>
+                                <li>SQL</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="about">
+                            <img class="rounded-circle" src="/images/MyPic.png" alt="My Picture" width="300"
+                                height="400">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
